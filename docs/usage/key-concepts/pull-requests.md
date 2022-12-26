@@ -4,6 +4,14 @@ description: Learn about Renovate pull requests
 ---
 
 This page describes how Renovate pull requests work.
+{
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["^@somescope"],
+      "dependencyDashboardApproval": true
+    }
+  ]
+}
 
 ## How Renovate finds existing PRs
 
